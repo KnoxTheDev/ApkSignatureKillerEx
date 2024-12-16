@@ -1,0 +1,9 @@
+# ninja log v5
+1	22	1734358071149764610	CMakeFiles/SignatureKiller.dir/src/main/c/xhook.c.o	68c901b07ef04da
+2	35	1734358071161764610	CMakeFiles/SignatureKiller.dir/src/main/c/xh_log.c.o	439d736bb2027445
+22	52	1734358071177764609	CMakeFiles/SignatureKiller.dir/src/main/c/xh_version.c.o	7623ce8c67d503bf
+0	61	1734358071189764609	CMakeFiles/SignatureKiller.dir/src/main/c/mt_jni.c.o	e9f1e61b5e73718
+10	80	1734358071205764608	CMakeFiles/SignatureKiller.dir/src/main/c/xh_util.c.o	70f2111ed1bf81d5
+1	90	1734358071217764608	CMakeFiles/SignatureKiller.dir/src/main/c/xh_elf.c.o	bce917023277bea6
+1	105	1734358071229764607	CMakeFiles/SignatureKiller.dir/src/main/c/xh_core.c.o	96b6b400c7f5906e
+105	123	1734358071249764607	../../../../build/intermediates/cxx/Debug/6723424y/obj/arm64-v8a/libSignatureKiller.so	1c8b30935f8926fd

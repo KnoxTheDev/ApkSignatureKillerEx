@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/ApkSignatureKillerEx/app/.cxx/Debug/4g2i5p6f/x86",
+  "command": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=i686-none-linux-android21 --sysroot=/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dtest_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wall -Wextra -Werror -fvisibility=hidden -fno-limit-debug-info  -fPIC -o CMakeFiles/test.dir/src/main/c/openat.c.o -c /workspaces/ApkSignatureKillerEx/app/src/main/c/openat.c",
+  "file": "/workspaces/ApkSignatureKillerEx/app/src/main/c/openat.c"
+}
+]

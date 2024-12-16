@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/armeabi-v7a",
+  "command": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DSignatureKiller_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wall -Wextra -Werror -fvisibility=hidden -fno-limit-debug-info  -fPIC -o CMakeFiles/SignatureKiller.dir/src/main/c/mt_jni.c.o -c /workspaces/ApkSignatureKillerEx/killer/src/main/c/mt_jni.c",
+  "file": "/workspaces/ApkSignatureKillerEx/killer/src/main/c/mt_jni.c"
+},
+{
+  "directory": "/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/armeabi-v7a",
+  "command": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DSignatureKiller_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wall -Wextra -Werror -fvisibility=hidden -fno-limit-debug-info  -fPIC -o CMakeFiles/SignatureKiller.dir/src/main/c/xhook.c.o -c /workspaces/ApkSignatureKillerEx/killer/src/main/c/xhook.c",
+  "file": "/workspaces/ApkSignatureKillerEx/killer/src/main/c/xhook.c"
+},
+{
+  "directory": "/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/armeabi-v7a",
+  "command": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DSignatureKiller_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wall -Wextra -Werror -fvisibility=hidden -fno-limit-debug-info  -fPIC -o CMakeFiles/SignatureKiller.dir/src/main/c/xh_core.c.o -c /workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_core.c",
+  "file": "/workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_core.c"
+},
+{
+  "directory": "/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/armeabi-v7a",
+  "command": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DSignatureKiller_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wall -Wextra -Werror -fvisibility=hidden -fno-limit-debug-info  -fPIC -o CMakeFiles/SignatureKiller.dir/src/main/c/xh_elf.c.o -c /workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_elf.c",
+  "file": "/workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_elf.c"
+},
+{
+  "directory": "/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/armeabi-v7a",
+  "command": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DSignatureKiller_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wall -Wextra -Werror -fvisibility=hidden -fno-limit-debug-info  -fPIC -o CMakeFiles/SignatureKiller.dir/src/main/c/xh_log.c.o -c /workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_log.c",
+  "file": "/workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_log.c"
+},
+{
+  "directory": "/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/armeabi-v7a",
+  "command": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DSignatureKiller_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wall -Wextra -Werror -fvisibility=hidden -fno-limit-debug-info  -fPIC -o CMakeFiles/SignatureKiller.dir/src/main/c/xh_util.c.o -c /workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_util.c",
+  "file": "/workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_util.c"
+},
+{
+  "directory": "/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/armeabi-v7a",
+  "command": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DSignatureKiller_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wall -Wextra -Werror -fvisibility=hidden -fno-limit-debug-info  -fPIC -o CMakeFiles/SignatureKiller.dir/src/main/c/xh_version.c.o -c /workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_version.c",
+  "file": "/workspaces/ApkSignatureKillerEx/killer/src/main/c/xh_version.c"
+}
+]

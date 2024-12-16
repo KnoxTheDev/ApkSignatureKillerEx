@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/workspaces/ApkSignatureKillerEx/killer/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/codespace/android-sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/workspaces/ApkSignatureKillerEx/killer/.cxx/RelWithDebInfo/2n435x4y/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/codespace/android-sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/workspaces/ApkSignatureKillerEx/killer/.cxx/RelWithDebInfo/2n435x4y/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "SignatureKiller::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "SignatureKiller",
+      "output": "/workspaces/ApkSignatureKillerEx/killer/build/intermediates/cxx/RelWithDebInfo/2n435x4y/obj/arm64-v8a/libSignatureKiller.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/codespace/android-sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

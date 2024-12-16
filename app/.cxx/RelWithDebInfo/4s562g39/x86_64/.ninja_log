@@ -1,0 +1,12 @@
+# ninja log v5
+0	36	1734359190493721300	CMakeFiles/test.dir/src/main/c/openat.c.o	6b2b02501368b02c
+38	88	1734359190541721298	../../../../build/intermediates/cxx/RelWithDebInfo/4s562g39/obj/x86_64/libtest.so	a77dda6fdc551148
+0	4	0	clean	e90b4e32024f220
+0	3	0	clean	e90b4e32024f220
+0	2	0	clean	e90b4e32024f220
+0	2	0	clean	e90b4e32024f220
+0	2	0	clean	e90b4e32024f220
+0	2	0	clean	e90b4e32024f220
+0	4	0	clean	e90b4e32024f220
+0	4	0	clean	e90b4e32024f220
+0	2	0	clean	e90b4e32024f220

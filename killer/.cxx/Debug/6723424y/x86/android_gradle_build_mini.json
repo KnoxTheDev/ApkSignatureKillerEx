@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/workspaces/ApkSignatureKillerEx/killer/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/codespace/android-sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/6723424y/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/codespace/android-sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/6723424y/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "SignatureKiller::@6890427a1f51a3e7e1df": {
+      "artifactName": "SignatureKiller",
+      "abi": "x86",
+      "output": "/workspaces/ApkSignatureKillerEx/killer/build/intermediates/cxx/Debug/6723424y/obj/x86/libSignatureKiller.so",
+      "runtimeFiles": []
+    }
+  }
+}

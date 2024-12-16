@@ -1,0 +1,18 @@
+# ninja log v5
+1	115	1734359187585721413	CMakeFiles/SignatureKiller.dir/src/main/c/xhook.c.o	fb616510a537dc1c
+78	169	1734359187645721410	CMakeFiles/SignatureKiller.dir/src/main/c/xh_log.c.o	a81ad4b751d274f2
+0	220	1734359187697721408	CMakeFiles/SignatureKiller.dir/src/main/c/mt_jni.c.o	9307ffa0f688a275
+115	226	1734359187697721408	CMakeFiles/SignatureKiller.dir/src/main/c/xh_version.c.o	844de5af3b4876b7
+107	261	1734359187737721407	CMakeFiles/SignatureKiller.dir/src/main/c/xh_util.c.o	f023cf4bd4bae6b8
+58	432	1734359187909721400	CMakeFiles/SignatureKiller.dir/src/main/c/xh_elf.c.o	621e2a52d598aa13
+27	527	1734359188005721396	CMakeFiles/SignatureKiller.dir/src/main/c/xh_core.c.o	d5f8abc5f4045655
+528	598	1734359188069721394	../../../../build/intermediates/cxx/RelWithDebInfo/o5hqpi6m/obj/arm64-v8a/libSignatureKiller.so	570016fbfd80d4b2
+0	9	0	clean	e90b4e32024f220
+0	3	0	clean	e90b4e32024f220
+0	4	0	clean	e90b4e32024f220
+0	4	0	clean	e90b4e32024f220
+0	4	0	clean	e90b4e32024f220
+0	5	0	clean	e90b4e32024f220
+0	5	0	clean	e90b4e32024f220
+0	3	0	clean	e90b4e32024f220
+0	3	0	clean	e90b4e32024f220

@@ -4,13 +4,13 @@ plugins {
 
 android {
     namespace 'bin.mt.signature'
-    compileSdk 34
+    compileSdk 35
     ndkVersion '27.1.12297006'
 
     defaultConfig {
         minSdk 21
         //noinspection OldTargetApi
-        targetSdk 34
+        targetSdk 35
         externalNativeBuild {
             cmake {
                 cppFlags "-std=c++17"

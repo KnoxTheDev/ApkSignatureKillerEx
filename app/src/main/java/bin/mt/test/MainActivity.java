@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 
     public static class App extends Application {
         static {
-            new bin.mt.signature.KillerApplication(); // 注释掉这句即可关闭过签
+            new bin.mt.signature.KillerApplication(); // Commenting this line disables signature killing.
         }
     }
 
@@ -44,16 +44,16 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         TextView msg = findViewById(R.id.msg);
 
-        // 以下演示了三种获取签名MD5的方式
+        // Demonstrating three methods of retrieving the MD5 signature
 
         String signatureExpected = "3bf8931788824c6a1f2c6f6ff80f6b21";
         String signatureFromAPI = md5(signatureFromAPI());
         String signatureFromAPK = md5(signatureFromAPK());
         String signatureFromSVC = md5(signatureFromSVC());
 
-        // 开启过签后，API与APK方式会获取到虚假的签名MD5
+        // Once signature killing is enabled, both API and APK methods will give fake MD5 signatures
 
-        // 而SVC方式总是能获取到真实的签名MD5
+        // However, the SVC method will always return the true MD5 signature
 
         SpannableStringBuilder sb = new SpannableStringBuilder();
         append(sb, "Expected: ", signatureExpected, Color.BLACK);
@@ -61,16 +61,16 @@ public class MainActivity extends Activity {
         append(sb, "From APK: ", signatureFromAPK, signatureExpected.equals(signatureFromAPK) ? Color.BLUE : Color.RED);
         append(sb, "From SVC: ", signatureFromSVC, signatureExpected.equals(signatureFromSVC) ? Color.BLUE : Color.RED);
 
-        // 当然SVC并非绝对安全，只是相对而言更加可靠，实际运用还需结合更多的手段
+        // Although SVC is not entirely secure, it is relatively more reliable. In actual usage, more methods should be combined.
 
         msg.setText(sb);
     }
 
-    private static void append(SpannableStringBuilder sb, String header, String value, int color) {
+    private static void append(SpannableStringBuilder sb, String header, String value, int colour) {
         int start = sb.length();
         sb.append(header).append(value).append("\n");
         int end = sb.length();
-        sb.setSpan(new ForegroundColorSpan(color), start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        sb.setSpan(new ForegroundColorSpan(colour), start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
     }
 
     private byte[] signatureFromAPI() {
