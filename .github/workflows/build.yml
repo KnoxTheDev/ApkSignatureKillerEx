@@ -30,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: patched-apk
-          path: app/build/outputs/apk/release/BGMI-*.apk
+          path: app/build/outputs/apk/release/*.apk
