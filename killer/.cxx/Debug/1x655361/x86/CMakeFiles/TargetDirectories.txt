@@ -1,3 +1,0 @@
-/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/x86/CMakeFiles/SignatureKiller.dir
-/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/x86/CMakeFiles/edit_cache.dir
-/workspaces/ApkSignatureKillerEx/killer/.cxx/Debug/1x655361/x86/CMakeFiles/rebuild_cache.dir
