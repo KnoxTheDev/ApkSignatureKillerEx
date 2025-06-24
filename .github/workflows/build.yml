@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -19,6 +19,9 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       - name: Run killer-release task
         run: ./gradlew :killer:assembleRelease
 
@@ -31,4 +34,4 @@ jobs:
           else
             echo "tree command not found, using ls -R instead for build directories"
             find . -type d -name build -exec echo "Listing for {}" \; -exec ls -R {} \;
-          fi        
+          fi
