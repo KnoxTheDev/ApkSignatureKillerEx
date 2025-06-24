@@ -1,6 +1,0 @@
-# ninja log v5
-0	37	1734362585627251248	CMakeFiles/test.dir/src/main/c/openat.c.o	e2bd7a9f7907f9b5
-40	64	1734362585651251248	../../../../build/intermediates/cxx/RelWithDebInfo/4s562g39/obj/armeabi-v7a/libtest.so	217b463316d61253
-0	7	0	clean	e90b4e32024f220
-1	72	1734362617115251048	CMakeFiles/test.dir/src/main/c/openat.c.o	e2bd7a9f7907f9b5
-72	126	1734362617163251048	../../../../build/intermediates/cxx/RelWithDebInfo/4s562g39/obj/armeabi-v7a/libtest.so	217b463316d61253

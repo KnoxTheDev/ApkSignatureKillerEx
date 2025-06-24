@@ -1,3 +1,0 @@
-/workspaces/ApkSignatureKillerEx/app/.cxx/RelWithDebInfo/4s562g39/x86/CMakeFiles/test.dir
-/workspaces/ApkSignatureKillerEx/app/.cxx/RelWithDebInfo/4s562g39/x86/CMakeFiles/edit_cache.dir
-/workspaces/ApkSignatureKillerEx/app/.cxx/RelWithDebInfo/4s562g39/x86/CMakeFiles/rebuild_cache.dir

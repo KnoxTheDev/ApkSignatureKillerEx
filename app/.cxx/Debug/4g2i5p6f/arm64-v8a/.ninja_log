@@ -1,4 +1,0 @@
-# ninja log v5
-0	112	1734362579871251284	CMakeFiles/test.dir/src/main/c/openat.c.o	bf62fc817ab4b819
-113	135	1734362579895251284	../../../../build/intermediates/cxx/Debug/4g2i5p6f/obj/arm64-v8a/libtest.so	2aab085c40a79ff0
-0	3	0	clean	e90b4e32024f220

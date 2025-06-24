@@ -1,3 +1,0 @@
-/workspaces/ApkSignatureKillerEx/app/.cxx/Debug/k376q2g2/armeabi-v7a/CMakeFiles/test.dir
-/workspaces/ApkSignatureKillerEx/app/.cxx/Debug/k376q2g2/armeabi-v7a/CMakeFiles/edit_cache.dir
-/workspaces/ApkSignatureKillerEx/app/.cxx/Debug/k376q2g2/armeabi-v7a/CMakeFiles/rebuild_cache.dir
