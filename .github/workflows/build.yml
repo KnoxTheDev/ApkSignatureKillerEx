@@ -23,9 +23,6 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
-      - name: Build killer library
-        run: ./gradlew :killer:assembleRelease
-
       - name: Build patched APK
         run: ./gradlew :app:assembleRelease
 
@@ -33,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: patched-apk
-          path: app/build/outputs/apk/release/app-release.apk
+          path: app/build/outputs/apk/release/BGMI-*.apk
