@@ -1,11 +1,12 @@
-name: Manual Release Build
+name: Signature Killer
 
 on:
   workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -22,16 +23,14 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
-      - name: Run killer-release task
+      - name: Build killer library
         run: ./gradlew :killer:assembleRelease
 
-      - name: Print build folder tree
-        run: |
-          echo "Attempting to print tree structure of build directories..."
-          if command -v tree &> /dev/null
-          then
-            find . -type d -name build -exec echo "Listing for {}" \; -exec tree {} \;
-          else
-            echo "tree command not found, using ls -R instead for build directories"
-            find . -type d -name build -exec echo "Listing for {}" \; -exec ls -R {} \;
-          fi
+      - name: Build patched APK
+        run: ./gradlew :app:assembleRelease
+
+      - name: Upload patched APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: patched-apk
+          path: app/build/outputs/apk/release/app-release.apk
