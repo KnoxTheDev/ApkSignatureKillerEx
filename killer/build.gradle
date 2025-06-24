@@ -5,7 +5,7 @@ plugins {
 android {
     namespace 'bin.mt.signature'
     compileSdk 35
-    ndkVersion '27.1.12297006'
+    ndkVersion '27.2.12479018'
 
     defaultConfig {
         minSdk 21
